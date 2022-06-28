@@ -5,13 +5,16 @@ import { AppComponent } from './app.component';
 import { myContainerComponent } from './myContainer/myContainer.component';
 import { TopnavComponent } from './myContainer/topnav/topnav.component';
 import { HeaderComponent } from './myContainer/header/header.component';
+import { Txtsec1Component } from './myContainer/txtsec1/txtsec1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     myContainerComponent,
     TopnavComponent,
-    HeaderComponent
+    HeaderComponent,
+    Txtsec1Component,
+
   ],
   imports: [
     BrowserModule,
