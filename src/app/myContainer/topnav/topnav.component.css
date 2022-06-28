@@ -22,3 +22,31 @@
 .clear{
     clear: both;
 }
+
+/**this is media query **/
+@media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+    .toplinks{
+    padding-top: 9px;
+    margin: auto;
+    width: 56%;
+    text-align: center;
+    float: right;
+}
+    
+    .brand{
+        width:100%;
+        text-align:center;
+    }
+    .topnav a{
+        padding:0px 5px;
+    }
+    .topnav a{
+       display:flex;
+       flex-direction:row;
+       flex-wrap:wrap;
+       padding:5px;
+    }
+}
