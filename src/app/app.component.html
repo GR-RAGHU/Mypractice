@@ -1,1 +1,16 @@
-<app-myContainer></app-myContainer>
+<!-- <app-myContainer></app-myContainer>
+<app-ng-if></app-ng-if> -->
+<div class="container">
+    
+<header>
+    <ul class="nav-tabs">
+        <li [ngClass]="selectedtab=='home' ? 'nav-items active' : 'nav-items'"><a class="nav-link " href="#" (click)="selectedTab('home')">Home</a></li>
+        <li [ngClass]="selectedtab=='Aboutus' ? 'nav-items active' : 'nav-items'"><a class="nav-link" href="#" (click)="selectedTab('Aboutus')">About Us</a></li>
+         <li [ngClass]="selectedtab=='Products' ? 'nav-items active' : 'nav-items'"><a class="nav-link " href="#" (click)="selectedTab('Products')">Products</a></li>
+        <li [ngClass]="selectedtab=='Contactus' ? 'nav-items active' : 'nav-items'"><a class="nav-link " href="#" (click)="selectedTab('Contactus')">Contact Us</a></li> 
+        
+    </ul>
+</header>
+<hr>
+<app-home></app-home>
+</div>

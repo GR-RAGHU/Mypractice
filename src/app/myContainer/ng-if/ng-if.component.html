@@ -1,0 +1,8 @@
+<div class="container">
+    <button class="btn btn-success" (click)="showtxt()">Create Block</button>
+    <br><br>
+    <div *ngIf="!show; else elseblock">ng block is block and it was block</div>
+    <ng-template #elseblock>
+        <div>Else Block!</div>
+    </ng-template>
+</div>

@@ -1,0 +1,30 @@
+.container{
+    background: #f3f3f3;
+    width: 800px;
+    margin: auto;
+    padding: 5px;
+    }
+    ul{
+        display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 40px;
+    text-align: center;
+    }
+    ul li{
+        width: 200px;
+        padding: 10px;
+    }
+
+    ul li a{
+        text-decoration: none;
+    }
+    .active{
+        color: #495057;
+        background-color: #fff;
+        border-color: #dee2e6 #dee2e6 #fff;
+        border-left: 1px solid;
+        border-top: 1px solid;
+        border-right: 1px solid;
+        height: 20px;
+    }

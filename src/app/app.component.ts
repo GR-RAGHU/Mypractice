@@ -1,3 +1,4 @@
+import { AnimateTimings } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-practice-app';
+  public selectedtab:string;
+  constructor(){
+this.selectedtab="home"
+  }
+  selectedTab(event:string){
+this.selectedtab=event;
+
+  }
 }
