@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-practice-app';
-  public selectedtab:string;
+  public selectedtab:string="";
   constructor(){
-this.selectedtab="home"
+// this.selectedtab="home"
   }
   selectedTab(event:string){
 this.selectedtab=event;
