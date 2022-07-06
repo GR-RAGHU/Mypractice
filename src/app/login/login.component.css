@@ -56,3 +56,9 @@ button{
 .parentcontainer{
     width: 100%;
 }
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+    box-shadow: 0 0 13px inset rgb(255 0 0 / 0%);
+
+}
