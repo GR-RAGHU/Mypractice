@@ -87,3 +87,10 @@ p {
     text-align: center;
     font-family: inherit;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 80px;
+}

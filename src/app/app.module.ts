@@ -15,6 +15,12 @@ import { ProductsComponent } from './products/products.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { PagenotfoundComponent } from './page-not-found/pagenotfound.component';
+import { LaptopComponent } from './products/laptop/laptop.component';
+import { TvComponent } from './products/tv/tv.component';
+import { WashingmeachineComponent } from './products/washingmeachine/washingmeachine.component';
+import { MixerComponent } from './products/mixer/mixer.component';
+import { MobileComponent } from './products/mobile/mobile.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -31,7 +37,13 @@ import { PagenotfoundComponent } from './page-not-found/pagenotfound.component';
     HomeComponent,
     ProductsComponent,
     LoginComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    LaptopComponent,
+    TvComponent,
+    WashingmeachineComponent,
+    MixerComponent,
+    MobileComponent,
+    CardComponent
 
   ],
   imports: [
