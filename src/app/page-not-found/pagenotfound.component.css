@@ -1,0 +1,12 @@
+.companylogo{
+    height: 15vh;
+    padding-top: 20px;
+}
+.main-container{
+    text-align: center;
+    background: #fff;
+}
+.pagenotfound{
+    width: 64%;
+    height: 1%;
+}
